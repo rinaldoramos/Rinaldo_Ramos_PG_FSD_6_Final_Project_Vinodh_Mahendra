@@ -20,9 +20,7 @@ public class Products implements Serializable {
 	private double price;
 	private boolean status;
 	
-	public Products() {
-		super();
-	}
+	protected Products() {}
 
 	public Products(String productName, String brand, int available, double price, boolean status) {
 		super();
